@@ -1,11 +1,13 @@
-# Clone the Repository
+#WeatherMap
+
+## Clone the Repository
 
 To get started, clone this repository:
 
     git clone https://github.com/MurphyAmos/WeatherMap.git
     cd WeatherMap
 
-# How to Run
+## How to Run
 
 Run the application using:
 
@@ -19,7 +21,7 @@ In the CMD. Enter a State, city, and county name, . The program will:
 
 The map opens separately in your browser and shows a clickable marker for the selected location.
 
-## Features
+### Features
 
 - Search for weather by city name
 - Display Temperature, Forecast, and Rain Chaice
