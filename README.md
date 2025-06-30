@@ -1,4 +1,5 @@
-#WeatherMap
+# WeatherMap
+A program to used to pull weather data using `weather.gov.api` and `Folium` to show that data
 
 ## Clone the Repository
 
@@ -26,9 +27,13 @@ The map opens separately in your browser and shows a clickable marker for the se
 - Search for weather by city name
 - Display Temperature, Forecast, and Rain Chaice
 - Automatically opens a map in your browser with a weather popup using `Folium`
+- Will automatically use user location if program cannot find input location
+
+
 Notes
 -----
 - Make sure you have internet access for forecast pulling and map loading.
+  
 
 
 License
