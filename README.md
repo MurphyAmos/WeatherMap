@@ -31,16 +31,8 @@ Notes
 -----
 - Make sure you have internet access for forecast pulling and map loading.
 
-Author
-------
-Created by Murphy Amos  
-GitHub: https://github.com/MurphyAmos
 
 License
 -------
 This project is licensed under the MIT License.
 
-Future Ideas
-------------
-- Add forecast support (3-day/7-day)
-- Forecast overlau
