@@ -43,4 +43,4 @@ This project is licensed under the MIT License.
 Future Ideas
 ------------
 - Add forecast support (3-day/7-day)
-- Add country dropdown or auto-suggestions
+- Forecast overlau
