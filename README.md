@@ -1,10 +1,8 @@
 Features
 --------
 - Search for weather by city name
-- Display temperature, humidity, wind speed, and weather description
-- Automatically opens a map in your browser with a weather popup
-- Simple GUI built with Tkinter
-- API key securely loaded from a .env file
+- Display Temperature, Forecast, and Rain Chaice
+- Automatically opens a map in your browser with a weather popup using `Folium`
 
 Clone the Repository
 --------------------
