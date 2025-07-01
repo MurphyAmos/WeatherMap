@@ -63,15 +63,15 @@ class pullCityData:
         forecastInfo=requests.get(f"https://api.weather.gov/gridpoints/HGX/{gridPoints}/forecast")
         #turn it in to text
         forecastInfoJson = json.loads(forecastInfo.text)
-		#might make variables and hold them or just directly pull them in text message sender thingy	
+	#might make variables and hold them or just directly pull them in text message sender thingy	
 
-		###in this half of the function i will hold the info in some global variables
+	###in this half of the function i will hold the info in some global variables
         global temperatureAfternoon
         global shortForecastAfternoon
         global percipChance
         
-		#here we are just using json and oulling the temp,short forecast, and rain%
-		#yes this is hard to read, but i dont really care as it wont change 
+	#here we are just using json and oulling the temp,short forecast, and rain%
+	#yes this is hard to read, but i dont really care as it wont change 
         temperatureAfternoon = forecastInfoJson["properties"]["periods"][0]["temperature"]
         shortForecastAfternoon= forecastInfoJson["properties"]["periods"][0]["shortForecast"]
         percipChance = forecastInfoJson["properties"]["periods"][0]["probabilityOfPrecipitation"]["value"]
